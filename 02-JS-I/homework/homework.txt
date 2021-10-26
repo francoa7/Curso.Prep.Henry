@@ -1,0 +1,24 @@
+CONCEPTOS
+Variables: una variable es una forma de almacenar algún tipo de dato o información bajo un nombre
+para que persista y luego poder utilizarlo, accediendo a esta información a través del nombre.
+
+Strings: los strings son un tipo de variables que almacenan información de tipo cadenas de texto.
+Guardan, propiamente dicho, cadenas de texto, y para hacerlo debemos escribir la información
+entre comillas.
+
+Funciones (argumentos, return): las funciones son porciones de código que cumplen con alguna 
+funcionalidad específica. Esta porción de código se encuentra identificada bajo un nombre, que 
+se utiliza para invocar su funcionamiento las veces que sea necesario. 
+Los argumentos son variables o datos que se le proporcionan a la función para que pueda
+utilizar la información que éstas variables contienen, y así poder cumplir con su funcionalidad
+La sentencia return sirve para que la función devuelva el valor que le indiquemos.
+
+Declaraciones if: éstas declaraciones se utilizan para ejecutar un código dependiendo de si una 
+condición se cumple o no. Si la condición es falsa, el código no se ejecuta; si es verdadera, si lo hace.
+Sirven para controlar el flujo de ejecución de nuestro código.
+
+Valores booleanos (true, false): los valores booleanos son otro tipo de variables. Vimos que los Strings
+almacenan cadenas de texto. Los booleanos almacenan valores de verdad, y pueden ser verdadero, o falso.
+
+
+
