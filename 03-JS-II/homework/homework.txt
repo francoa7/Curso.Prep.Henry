@@ -1,0 +1,29 @@
+CONCEPTOS 
+
+FOR
+El bucle for es un bloque de código que se ejecutará repetidas veces mientras la condición 
+especificada en su encabezado sea verdadera.  Esta condición la establecemos nosotros y
+debemos asegurarnos de que en algún momento llegue a ser falsa para que el bloque 
+no siga ejecutándose infinitamente.
+
+OPERADORES LÓGICOS
+
+&&
+Éste es el operador "Y", o "AND". Nos sirve para evaluar más de una condición, y devolverá
+verdadero sí y sólo sí todas las condiciones indicadas son verdaderas. En caso de que alguna
+sea falsa, entonces devolverá falso.
+
+||
+Operador "O", u "OR". También nos permite evaluar más de una condición. El operador OR 
+devolverá verdadero cuando alguna de las condiciones indicadas sea verdadera. Es decir, que
+basta con que una condición se cumpla para que se devuelva el valor verdadero. Para que se 
+devuelva falso, ninguna de las condiciones debe ser veradera.
+
+! (NOT)
+El operador "NOT", indicado con el signo de exclamación (!) nos sirve para negar el valor de verdad
+de una declaración. Es decir, si estamos evaluando una condición y su resultado es verdadero, si
+utilizamos ! (NOT), obtendremos el valor falso. En resumen, este operador hace que se devuelva el 
+valor contrario. Si la condición es verdadera, se devuelve falso, y viceversa.
+Ejemplo: !false ---> devuelve verdadero
+                  !(10>3) ---> devuelve falso (10 si es mayor que 3, pero como lo estamos negando,
+                                                                   nos devuelve falso)
