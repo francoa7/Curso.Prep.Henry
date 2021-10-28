@@ -1,0 +1,37 @@
+CONCEPTOS
+
+Objetos
+Los objetos son son similares a los arreglos, pero con algunas diferencias; mientras que los arreglos
+contienen varios elementos, los objetos son un solo elemento que contiene mucha información
+sobre sí mismo. Es decir, que tiene un conjunto de propiedades o atributos.
+
+Propiedades
+Los distintos tipos de información que contiene un objeto se conocen como propiedades.
+Estas propiedades se indican con una "key" o clave, y con su valor.
+Por ejemplo, puedo tener un objeto llamado "Auto", que tenga una propiedad con key
+ "color", y  con el valor "rojo".
+
+Métodos
+Los métodos son las funciones que se guardan dentro de un objeto. Funcionan igual que las 
+funciones, solo que para acceder a ellos debemos invocarlos de la forma:
+"nombreDelObjeto.nombreDelMetodo"
+
+Bucle for...in
+Estos bucles son una alternativa al bucle for. Mientras el bucle for es mayormente utilizado para
+recorrer arreglos (entre otros usos), el bucle for...in se utiliza para recorrer las propiedades
+"key-value" de un objeto. Por ejemplo: 
+
+for (let clave in usuario){
+    console.log(clave);
+    console.log(usuario[clave]);
+}
+
+Este bucle recorre cada una de las claves en el objeto usuario, y las muestra por pantalla.
+
+Notación de puntos vs notación de corchetes
+La principal diferencia entre estos dos métodos se encuentra en que:
+Cuando utilizamos la notación por puntos, accedemos a una propiedad o método sobre la cuál
+conocemos el nombre y buscamos acceder
+
+La notación de corchetes por lo general es utilizada con variables, es decir que podemos acceder
+a ciertas propiedades y/o métodos que no serán especificados explícitamente, sino a través de variables.
