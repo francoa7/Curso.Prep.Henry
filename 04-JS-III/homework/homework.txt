@@ -1,0 +1,9 @@
+CONCEPTOS
+
+Arrays
+Un array o arreglo es una forma de guardar una colección de datos bajo el nombre de una sola
+variable. Es decir que al llamar a esta variable por su nombre, no obtendremos un sólo dato, sino
+una colección de datos. Por lo general se utiliza para guardar una colección de datos que tienen
+alguna relación entre sí, como por ejemplo, si queremos guardar la lista de nombres de los alumnos
+de un curso en una sola variable. Un array entonces es un conjunto de elementos ordenados en fila,
+a los cuáles accedemos individualmente a través de su índice de posición.
