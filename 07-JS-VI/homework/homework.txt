@@ -1,0 +1,6 @@
+CONCEPTOS
+
+Funciones Callback
+Los callbacks son funciones que se pasan como argumento a otras funciones. A menudo
+se utilizan para continuar con la ejecución del código después de que se haya completado 
+una operación a sincrónica.
